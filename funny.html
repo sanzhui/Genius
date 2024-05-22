@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搞怪网页</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff4500;
+            animation: colorChange 3s infinite;
+        }
+        @keyframes colorChange {
+            0% { color: #ff4500; }
+            50% { color: #ffa500; }
+            100% { color: #ff4500; }
+        }
+        .funny-text {
+            font-size: 1.5em;
+            margin: 20px 0;
+            animation: moveText 5s infinite;
+        }
+        @keyframes moveText {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(20px); }
+            100% { transform: translateX(0); }
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #ff4500;
+            border-radius: 10px;
+            animation: rotateImage 5s infinite linear;
+        }
+        @keyframes rotateImage {
+            0% { transform: rotate(0); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Funniest Page Ever!</h1>
+    <p class="funny-text">Get ready to laugh your socks off! 😂</p>
+    <img src="IMG_8674.jpg" alt="搞怪图片">
+    <p class="funny-text">Did you see that? No? Look again! 👀</p>
+    <p class="funny-text">Okay, now this is getting hilarious! 🤣</p>
+    <p class="funny-text">I bet you can't stop laughing! 😂😂😂</p>
+</body>
+</html>
